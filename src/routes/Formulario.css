@@ -1,0 +1,43 @@
+.formulario h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    margin: 0.5rem;
+}
+
+
+.form-control input,
+.form-control textarea{
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-control .btn{
+    margin-top: 1rem;
+    background-color: #dbd0d0;
+    color: #392b1c;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    max-width: 80px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: .5rem;
+}
